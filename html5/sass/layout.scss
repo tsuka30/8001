@@ -1,0 +1,127 @@
+/* h9Coder type B ver 1.0 */
+/* 2014/10/02 UPDATE */
+
+//////////////////////////
+//共通設定
+//////////////////////////
+//clearfix
+@import "compass/utilities/general/clearfix";
+//margin間隔
+$globalmargin:15px;
+//padding間隔
+$globalpadding:10px;
+//ページ間隔
+$pagemargin:40px;
+
+//////////////////////////
+//個別設定
+//////////////////////////
+@mixin base {
+	width:950px;
+	margin-right:auto;
+	margin-left:auto;
+	background:#ccc;
+}
+
+/******************************************************/
+/* wrapper */
+/******************************************************/
+div#wrapper{ }
+div#wrapperInner{ }
+
+/******************************************************/
+/* header */
+/******************************************************/
+header#header{ }
+
+/******************************************************/
+/* headerTop */
+/******************************************************/
+header#header{
+	div#headerTop{
+		div#headerTopInner{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				width:auto;
+			}
+		}
+	}
+}
+
+/******************************************************/
+/* headerInner */
+/******************************************************/
+header#header{
+	div#headerInner{
+		div#headerInner2{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				width:auto;
+			}
+		}
+	}
+}
+
+/******************************************************/
+/* globalNavi */
+/******************************************************/
+nav#globalNavi{
+	margin-bottom:$globalmargin;
+	@media only screen and (max-width:640px){
+		margin-bottom:$globalpadding;
+	}
+	div#globalNaviInner{
+		@include base;
+		@include clearfix;
+		@media only screen and (max-width:640px){
+			width:auto;
+		}
+	}
+}
+
+/******************************************************/
+/* breadcrumb */
+/******************************************************/
+div#breadcrumb{
+	p{
+		@include base;
+		@include clearfix;
+		@media only screen and (max-width:640px){
+			display:none;
+		}
+	}
+}
+
+/******************************************************/
+/* containerTop */
+/******************************************************/
+div#containerTop{ }
+	div#containerTopInner{
+		@include base;
+		@include clearfix;
+		margin-bottom:$pagemargin;
+		@media only screen and (max-width:640px){
+			width:auto;
+			margin-bottom:$pagemargin/2;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

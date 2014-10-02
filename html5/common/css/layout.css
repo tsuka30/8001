@@ -1,0 +1,102 @@
+/* h9Coder type B ver 1.0 */
+/* 2014/10/02 UPDATE */
+/******************************************************/
+/* wrapper */
+/******************************************************/
+/******************************************************/
+/* header */
+/******************************************************/
+/******************************************************/
+/* headerTop */
+/******************************************************/
+header#header div#headerTop div#headerTopInner {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ccc;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media only screen and (max-width: 640px) {
+  header#header div#headerTop div#headerTopInner {
+    width: auto;
+  }
+}
+
+/******************************************************/
+/* headerInner */
+/******************************************************/
+header#header div#headerInner div#headerInner2 {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ccc;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media only screen and (max-width: 640px) {
+  header#header div#headerInner div#headerInner2 {
+    width: auto;
+  }
+}
+
+/******************************************************/
+/* globalNavi */
+/******************************************************/
+nav#globalNavi {
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 640px) {
+  nav#globalNavi {
+    margin-bottom: 10px;
+  }
+}
+nav#globalNavi div#globalNaviInner {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ccc;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media only screen and (max-width: 640px) {
+  nav#globalNavi div#globalNaviInner {
+    width: auto;
+  }
+}
+
+/******************************************************/
+/* breadcrumb */
+/******************************************************/
+div#breadcrumb p {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ccc;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media only screen and (max-width: 640px) {
+  div#breadcrumb p {
+    display: none;
+  }
+}
+
+/******************************************************/
+/* containerTop */
+/******************************************************/
+div#containerTopInner {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ccc;
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 640px) {
+  div#containerTopInner {
+    width: auto;
+    margin-bottom: 20px;
+  }
+}
