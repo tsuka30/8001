@@ -117,11 +117,36 @@ div#containerTop{ }
 
 
 
+/******************************************************/
+/* footer */
+/******************************************************/
+footer#footer{/* padding-top:15px; */}
 
+/******************************************************/
+/* footerInner */
+/******************************************************/
+footer#footer{
+	div#footerInner{
+		div#footerInner2{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				width:auto;
+			}
+		}
+	}
+}
 
-
-
-
-
-
+/******************************************************/
+/* footerBottom */
+/******************************************************/
+footer#footer div#footerBottom{
+	div#footerBottomInner{
+		@include base;
+		@include clearfix;
+		@media only screen and (max-width:640px){
+			width:auto;
+		}
+	}
+}
 

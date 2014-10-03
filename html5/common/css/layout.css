@@ -100,3 +100,44 @@ div#containerTopInner {
     margin-bottom: 20px;
   }
 }
+
+/******************************************************/
+/* footer */
+/******************************************************/
+footer#footer {
+  /* padding-top:15px; */
+}
+
+/******************************************************/
+/* footerInner */
+/******************************************************/
+footer#footer div#footerInner div#footerInner2 {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ccc;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media only screen and (max-width: 640px) {
+  footer#footer div#footerInner div#footerInner2 {
+    width: auto;
+  }
+}
+
+/******************************************************/
+/* footerBottom */
+/******************************************************/
+footer#footer div#footerBottom div#footerBottomInner {
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ccc;
+  overflow: hidden;
+  *zoom: 1;
+}
+@media only screen and (max-width: 640px) {
+  footer#footer div#footerBottom div#footerBottomInner {
+    width: auto;
+  }
+}
