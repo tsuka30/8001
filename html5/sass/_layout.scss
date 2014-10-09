@@ -1,0 +1,254 @@
+
+/******************************************************/
+/* layout */
+/******************************************************/
+/* 2014/10/09 UPDATE */
+
+@import "mixin";
+
+////////////////////////////////////////////////////////
+//【mixin】個別設定
+////////////////////////////////////////////////////////
+@mixin base {
+  width:$pageWidth;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+////////////////////////////////////////////////////////
+/* wrapper */
+////////////////////////////////////////////////////////
+div#wrapper{
+	div#wrapperInner{/**/}
+}
+
+
+////////////////////////////////////////////////////////
+/* header */
+////////////////////////////////////////////////////////
+header#header{
+
+	////////////////////////////////////////////////////////
+	/* headerTop */
+	////////////////////////////////////////////////////////
+	div#headerTop{
+		background-color: $colorMain1;
+		padding-top:$globalPadding;
+		padding-bottom:$globalPadding;
+		color:#ffffff;
+		div#headerTopInner{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				width:auto;
+			}
+		}
+	}
+
+	////////////////////////////////////////////////////////
+	/* headerInner */
+	////////////////////////////////////////////////////////
+	div#headerInner{
+		div#headerInner2{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				width:auto;
+			}
+		}
+	}
+
+}
+
+////////////////////////////////////////////////////////
+/* globalNavi */
+////////////////////////////////////////////////////////
+nav#globalNavi{
+	margin-bottom:$globalMargin;
+	@media only screen and (max-width:640px){
+		margin-bottom:$globalPadding;
+	}
+	div#globalNaviInner{
+		@include base;
+		@include clearfix;
+		@media only screen and (max-width:640px){
+			width:auto;
+		}
+	}
+}
+
+////////////////////////////////////////////////////////
+/* breadcrumb */
+////////////////////////////////////////////////////////
+div#breadcrumb{
+	p{
+		@include base;
+		@include clearfix;
+		@media only screen and (max-width:640px){
+			display:none;
+		}
+	}
+}
+
+////////////////////////////////////////////////////////
+/* containerTop */
+////////////////////////////////////////////////////////
+div#containerTop{
+	div#containerTopInner{
+		@include base;
+		@include clearfix;
+		margin-bottom:$pageMargin;
+		@media only screen and (max-width:640px){
+			width:auto;
+			margin-bottom:$pageMargin/2;
+		}
+	}
+}
+
+////////////////////////////////////////////////////////
+/* container */
+////////////////////////////////////////////////////////
+div#container{
+	div#containerInner{
+		@include base;
+		@include clearfix;
+		margin-bottom:$pageMargin;
+		@media only screen and (max-width:640px){
+			width:auto;
+			margin-bottom:$pageMargin/2;
+		}
+	}
+}
+.top div#container{
+	div#containerInner{/**/}
+}
+.column1 div#container{
+	div#containerInner{/**/}
+}
+
+	////////////////////////////////////////////////////////
+	/* leftNavi */
+	////////////////////////////////////////////////////////
+	div#leftNavi{
+		float:left;
+		width:$sideWidth;
+		margin-right:$pageMargin;
+		_display:inline;
+		div#leftNaviInner{/**/}
+		@media only screen and (max-width:640px){
+			width:auto;
+			margin-right:0;
+		}
+	}
+	.top div#leftNavi{
+		div#leftNaviInner{/**/}
+	}
+	.column1 div#leftNavi{
+		display:none;
+		div#leftNaviInner{/**/}
+	}
+
+	////////////////////////////////////////////////////////
+	/* rightNavi */
+	////////////////////////////////////////////////////////
+	//div#rightNavi{
+	//	float:right;
+	//	width:$sideWidth;
+	//	margin-left:$pageMargin;
+	//	_display:inline;
+	//	div#rightNaviInner{/**/}
+	//	@media only screen and (max-width:640px){
+	//	}
+	//}
+	//.top div#rightNavi{
+	//	div#rightNaviInner{/**/}
+	//}
+	//.column1 div#rightNavi{
+	//	display:none;
+	//	div#rightNaviInner{/**/}
+	//}
+
+	////////////////////////////////////////////////////////
+	/* contents */
+	////////////////////////////////////////////////////////
+	main#contents{
+		float:left;
+		width:$contentWidth;
+	}
+
+
+
+////////////////////////////////////////////////////////
+/* pagetop */
+////////////////////////////////////////////////////////
+div#pagetop{
+	p{
+		@include base;
+		@include clearfix;
+		@media only screen and (max-width:640px){
+			width:auto;
+		}
+	}
+}
+
+////////////////////////////////////////////////////////
+/* footer */
+////////////////////////////////////////////////////////
+footer#footer{
+
+	////////////////////////////////////////////////////////
+	/* footerNavi */
+	////////////////////////////////////////////////////////
+	nav#footerNavi{
+		div#footerNaviInner{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				display:none;
+			}
+		}
+	}
+
+
+	////////////////////////////////////////////////////////
+	/* footerSuvNavi */
+	////////////////////////////////////////////////////////
+	div#footerSuvNavi{
+		padding-top:$globalMargin;
+		padding-bottom:$globalMargin;
+		div#footerSuvNaviInner{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				display:none;
+			}
+		}
+	}
+
+	////////////////////////////////////////////////////////
+	/* footerInner */
+	////////////////////////////////////////////////////////
+	div#footerInner{
+		div#footerInner2{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				width:auto;
+			}
+		}
+	}
+
+	////////////////////////////////////////////////////////
+	/* footerBottom */
+	////////////////////////////////////////////////////////
+	div#footerBottom{
+		div#footerBottomInner{
+			@include base;
+			@include clearfix;
+			@media only screen and (max-width:640px){
+				width:auto;
+			}
+		}
+	}
+
+}

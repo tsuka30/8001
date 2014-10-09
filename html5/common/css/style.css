@@ -1,0 +1,68 @@
+/* h9Coder type B ver 1.0 */
+/* 2014/10/09 UPDATE */
+/******************************************************/
+/* layout */
+/******************************************************/
+/* 2014/10/09 UPDATE */
+/* wrapper */
+div#wrapper div#wrapperInner { /**/ }
+
+/* header */
+header#header { /* headerTop */ /* headerInner */ }
+header#header div#headerTop { background-color: #003b6a; padding-top: 10px; padding-bottom: 10px; color: #ffffff; }
+header#header div#headerTop div#headerTopInner { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { header#header div#headerTop div#headerTopInner { width: auto; } }
+header#header div#headerInner div#headerInner2 { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { header#header div#headerInner div#headerInner2 { width: auto; } }
+
+/* globalNavi */
+nav#globalNavi { margin-bottom: 15px; }
+@media only screen and (max-width: 640px) { nav#globalNavi { margin-bottom: 10px; } }
+nav#globalNavi div#globalNaviInner { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { nav#globalNavi div#globalNaviInner { width: auto; } }
+
+/* breadcrumb */
+div#breadcrumb p { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { div#breadcrumb p { display: none; } }
+
+/* containerTop */
+div#containerTop div#containerTopInner { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; margin-bottom: 40px; }
+@media only screen and (max-width: 640px) { div#containerTop div#containerTopInner { width: auto; margin-bottom: 20px; } }
+
+/* container */
+div#container div#containerInner { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; margin-bottom: 40px; }
+@media only screen and (max-width: 640px) { div#container div#containerInner { width: auto; margin-bottom: 20px; } }
+
+.top div#container div#containerInner { /**/ }
+
+.column1 div#container div#containerInner { /**/ }
+
+/* leftNavi */
+div#leftNavi { float: left; width: 220px; margin-right: 40px; _display: inline; }
+div#leftNavi div#leftNaviInner { /**/ }
+@media only screen and (max-width: 640px) { div#leftNavi { width: auto; margin-right: 0; } }
+
+.top div#leftNavi div#leftNaviInner { /**/ }
+
+.column1 div#leftNavi { display: none; }
+.column1 div#leftNavi div#leftNaviInner { /**/ }
+
+/* rightNavi */
+/* contents */
+main#contents { float: left; width: 690px; }
+
+/* pagetop */
+div#pagetop p { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { div#pagetop p { width: auto; } }
+
+/* footer */
+footer#footer { /* footerNavi */ /* footerSuvNavi */ /* footerInner */ /* footerBottom */ }
+footer#footer nav#footerNavi div#footerNaviInner { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { footer#footer nav#footerNavi div#footerNaviInner { display: none; } }
+footer#footer div#footerSuvNavi { padding-top: 15px; padding-bottom: 15px; }
+footer#footer div#footerSuvNavi div#footerSuvNaviInner { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { footer#footer div#footerSuvNavi div#footerSuvNaviInner { display: none; } }
+footer#footer div#footerInner div#footerInner2 { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { footer#footer div#footerInner div#footerInner2 { width: auto; } }
+footer#footer div#footerBottom div#footerBottomInner { width: 950px; margin-right: auto; margin-left: auto; overflow: hidden; *zoom: 1; }
+@media only screen and (max-width: 640px) { footer#footer div#footerBottom div#footerBottomInner { width: auto; } }
